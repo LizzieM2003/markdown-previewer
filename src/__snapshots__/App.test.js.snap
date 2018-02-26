@@ -1,0 +1,385 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <App />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <textarea
+          id="editor"
+          onChange={[Function]}
+          value="
+Heading
+=======
+
+Sub-heading
+---------
+
+### Another deeper heading
+
+Paragraphs are separated
+by a blank line.
+
+Leave 2 spaces at the end of a line to do a
+line break  
+
+Text attributes *italic*, **bold**,
+\`monospace\`, ~~strikethrough~~.
+
+> This is a blockquote.
+
+Inline-style: 
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png \\"Logo Title Text 1\\")
+
+Shopping list:
+
+  * apples
+  * oranges
+  * pears
+
+Numbered list:
+
+  1. wash
+  2. rinse
+  3. repeat
+
+The rain--not the reign--in
+Spain.
+
+ *[Herman Fasset](https://freecodecamp.com/hermanfassett)*
+"
+/>,
+        <div
+          dangerouslySetInnerHTML={
+                    Object {
+                              "__html": "<h1 id=\\"heading\\">Heading</h1>
+                    <h2 id=\\"sub-heading\\">Sub-heading</h2>
+                    <h3 id=\\"another-deeper-heading\\">Another deeper heading</h3>
+                    <p>Paragraphs are separated<br>by a blank line.</p>
+                    <p>Leave 2 spaces at the end of a line to do a<br>line break  </p>
+                    <p>Text attributes <em>italic</em>, <strong>bold</strong>,<br><code>monospace</code>, <del>strikethrough</del>.</p>
+                    <blockquote>
+                    <p>This is a blockquote.</p>
+                    </blockquote>
+                    <p>Inline-style:<br><img src=\\"https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png\\" alt=\\"alt text\\" title=\\"Logo Title Text 1\\"></p>
+                    <p>Shopping list:</p>
+                    <ul>
+                    <li>apples</li>
+                    <li>oranges</li>
+                    <li>pears</li>
+                    </ul>
+                    <p>Numbered list:</p>
+                    <ol>
+                    <li>wash</li>
+                    <li>rinse</li>
+                    <li>repeat</li>
+                    </ol>
+                    <p>The rain--not the reign--in<br>Spain.</p>
+                    <p> <em><a href=\\"https://freecodecamp.com/hermanfassett\\" target=\\"_blank\\">Herman Fasset</a></em></p>
+                    ",
+                            }
+          }
+          id="preview"
+/>,
+      ],
+      "className": "App",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "id": "editor",
+          "onChange": [Function],
+          "value": "
+Heading
+=======
+
+Sub-heading
+---------
+
+### Another deeper heading
+
+Paragraphs are separated
+by a blank line.
+
+Leave 2 spaces at the end of a line to do a
+line break  
+
+Text attributes *italic*, **bold**,
+\`monospace\`, ~~strikethrough~~.
+
+> This is a blockquote.
+
+Inline-style: 
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png \\"Logo Title Text 1\\")
+
+Shopping list:
+
+  * apples
+  * oranges
+  * pears
+
+Numbered list:
+
+  1. wash
+  2. rinse
+  3. repeat
+
+The rain--not the reign--in
+Spain.
+
+ *[Herman Fasset](https://freecodecamp.com/hermanfassett)*
+",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "textarea",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "dangerouslySetInnerHTML": Object {
+            "__html": "<h1 id=\\"heading\\">Heading</h1>
+<h2 id=\\"sub-heading\\">Sub-heading</h2>
+<h3 id=\\"another-deeper-heading\\">Another deeper heading</h3>
+<p>Paragraphs are separated<br>by a blank line.</p>
+<p>Leave 2 spaces at the end of a line to do a<br>line break  </p>
+<p>Text attributes <em>italic</em>, <strong>bold</strong>,<br><code>monospace</code>, <del>strikethrough</del>.</p>
+<blockquote>
+<p>This is a blockquote.</p>
+</blockquote>
+<p>Inline-style:<br><img src=\\"https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png\\" alt=\\"alt text\\" title=\\"Logo Title Text 1\\"></p>
+<p>Shopping list:</p>
+<ul>
+<li>apples</li>
+<li>oranges</li>
+<li>pears</li>
+</ul>
+<p>Numbered list:</p>
+<ol>
+<li>wash</li>
+<li>rinse</li>
+<li>repeat</li>
+</ol>
+<p>The rain--not the reign--in<br>Spain.</p>
+<p> <em><a href=\\"https://freecodecamp.com/hermanfassett\\" target=\\"_blank\\">Herman Fasset</a></em></p>
+",
+          },
+          "id": "preview",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <textarea
+            id="editor"
+            onChange={[Function]}
+            value="
+Heading
+=======
+
+Sub-heading
+---------
+
+### Another deeper heading
+
+Paragraphs are separated
+by a blank line.
+
+Leave 2 spaces at the end of a line to do a
+line break  
+
+Text attributes *italic*, **bold**,
+\`monospace\`, ~~strikethrough~~.
+
+> This is a blockquote.
+
+Inline-style: 
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png \\"Logo Title Text 1\\")
+
+Shopping list:
+
+  * apples
+  * oranges
+  * pears
+
+Numbered list:
+
+  1. wash
+  2. rinse
+  3. repeat
+
+The rain--not the reign--in
+Spain.
+
+ *[Herman Fasset](https://freecodecamp.com/hermanfassett)*
+"
+/>,
+          <div
+            dangerouslySetInnerHTML={
+                        Object {
+                                    "__html": "<h1 id=\\"heading\\">Heading</h1>
+                        <h2 id=\\"sub-heading\\">Sub-heading</h2>
+                        <h3 id=\\"another-deeper-heading\\">Another deeper heading</h3>
+                        <p>Paragraphs are separated<br>by a blank line.</p>
+                        <p>Leave 2 spaces at the end of a line to do a<br>line break  </p>
+                        <p>Text attributes <em>italic</em>, <strong>bold</strong>,<br><code>monospace</code>, <del>strikethrough</del>.</p>
+                        <blockquote>
+                        <p>This is a blockquote.</p>
+                        </blockquote>
+                        <p>Inline-style:<br><img src=\\"https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png\\" alt=\\"alt text\\" title=\\"Logo Title Text 1\\"></p>
+                        <p>Shopping list:</p>
+                        <ul>
+                        <li>apples</li>
+                        <li>oranges</li>
+                        <li>pears</li>
+                        </ul>
+                        <p>Numbered list:</p>
+                        <ol>
+                        <li>wash</li>
+                        <li>rinse</li>
+                        <li>repeat</li>
+                        </ol>
+                        <p>The rain--not the reign--in<br>Spain.</p>
+                        <p> <em><a href=\\"https://freecodecamp.com/hermanfassett\\" target=\\"_blank\\">Herman Fasset</a></em></p>
+                        ",
+                                  }
+            }
+            id="preview"
+/>,
+        ],
+        "className": "App",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "id": "editor",
+            "onChange": [Function],
+            "value": "
+Heading
+=======
+
+Sub-heading
+---------
+
+### Another deeper heading
+
+Paragraphs are separated
+by a blank line.
+
+Leave 2 spaces at the end of a line to do a
+line break  
+
+Text attributes *italic*, **bold**,
+\`monospace\`, ~~strikethrough~~.
+
+> This is a blockquote.
+
+Inline-style: 
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png \\"Logo Title Text 1\\")
+
+Shopping list:
+
+  * apples
+  * oranges
+  * pears
+
+Numbered list:
+
+  1. wash
+  2. rinse
+  3. repeat
+
+The rain--not the reign--in
+Spain.
+
+ *[Herman Fasset](https://freecodecamp.com/hermanfassett)*
+",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "textarea",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "dangerouslySetInnerHTML": Object {
+              "__html": "<h1 id=\\"heading\\">Heading</h1>
+<h2 id=\\"sub-heading\\">Sub-heading</h2>
+<h3 id=\\"another-deeper-heading\\">Another deeper heading</h3>
+<p>Paragraphs are separated<br>by a blank line.</p>
+<p>Leave 2 spaces at the end of a line to do a<br>line break  </p>
+<p>Text attributes <em>italic</em>, <strong>bold</strong>,<br><code>monospace</code>, <del>strikethrough</del>.</p>
+<blockquote>
+<p>This is a blockquote.</p>
+</blockquote>
+<p>Inline-style:<br><img src=\\"https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png\\" alt=\\"alt text\\" title=\\"Logo Title Text 1\\"></p>
+<p>Shopping list:</p>
+<ul>
+<li>apples</li>
+<li>oranges</li>
+<li>pears</li>
+</ul>
+<p>Numbered list:</p>
+<ol>
+<li>wash</li>
+<li>rinse</li>
+<li>repeat</li>
+</ol>
+<p>The rain--not the reign--in<br>Spain.</p>
+<p> <em><a href=\\"https://freecodecamp.com/hermanfassett\\" target=\\"_blank\\">Herman Fasset</a></em></p>
+",
+            },
+            "id": "preview",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

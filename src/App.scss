@@ -1,0 +1,43 @@
+.App {
+  width: 100vw;
+  min-height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+  padding: 5%;
+  background-color: #80aaff;
+
+  #editor, #preview {
+    width: 45%;
+    padding: 2%;
+    box-sizing: border-box;
+    margin: 0;
+
+    @media (max-width: 800px) {
+      width: 90%;
+      height: 42vh;
+    }
+  }
+
+
+  #preview {
+    background-color: white;
+    border: 1px solid #666;
+
+    @media (max-width: 800px) {
+      overflow: scroll;
+      // height: 40vh;
+    }
+  }
+
+  @media (max-width: 800px) {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+  }
+}
+
+
+
+
